@@ -4,7 +4,7 @@ import { Component, AfterViewInit } from '@angular/core';
   selector: 'app-ad-slot',
   imports: [],
   templateUrl: './ad-slot.html',
-  styleUrls: ['./ad-slot.css'],
+  styleUrl: './ad-slot.css',
 })
 export class AdSlot implements AfterViewInit {
   ngAfterViewInit() {

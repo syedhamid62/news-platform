@@ -8,7 +8,7 @@ import { AdSlot } from './components/ad-slot/ad-slot';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Hero, NewsGrid, Footer, AdSlot],
+  imports: [RouterOutlet, Navbar, Hero, AdSlot, NewsGrid, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
