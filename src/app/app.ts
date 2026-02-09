@@ -4,10 +4,11 @@ import { Navbar } from './components/navbar/navbar';
 import { Hero } from './components/hero/hero';
 import { NewsGrid } from './components/news-grid/news-grid';
 import { Footer } from './components/footer/footer';
+import { AdSlot } from './components/ad-slot/ad-slot';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Hero, NewsGrid, Footer],
+  imports: [RouterOutlet, Navbar, Hero, NewsGrid, Footer, AdSlot],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

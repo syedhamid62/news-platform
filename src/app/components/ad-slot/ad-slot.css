@@ -1,0 +1,22 @@
+.ad-slot-container {
+    margin: 40px 0;
+    padding: 10px;
+    background-color: var(--bg-alt);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.ad-label {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.adsbygoogle {
+    min-height: 90px;
+    background: rgba(0, 0, 0, 0.02);
+}
